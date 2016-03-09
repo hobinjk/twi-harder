@@ -26,14 +26,15 @@ function doTransform() {
 
 function transform(input) {
   input = input.replace(/'ve /g, ' have ');
-  input = input.replace(/'nt /g, ' not ');
+  input = input.replace(/ ain't /g, ' is not ');
+  input = input.replace(/n't /g, ' not ');
   input = input.replace(/'d /g, ' would ');
   input = input.replace(/'ll /g, ' will ');
   input = input.replace(/'m /g, ' am ');
   input = input.replace(/ let's /g, ' let us ');
   input = input.replace(/'s /g, ' is ');
   input = input.replace(/'re /g, ' are ');
-  var words = input.match(/\w+|[,;:.'"-]| +|\n/g);
+  var words = input.match(/\w+|[,;:.'"-]| +|\n|./g);
   var output = '';
   for (var i = 0; i < words.length; i++) {
     var word = words[i];
