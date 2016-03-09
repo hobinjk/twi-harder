@@ -11,7 +11,8 @@ var verilies = ['verily', 'indubitably', 'undoubtedly', 'quite',
                 'precisely', 'purely'];
 
 var helpingVerbs = ['did', 'would', 'might', 'were', 'is', 'are', 'was', 'can',
-  'could', 'may', 'will', 'should', 'have', 'has', 'shall', 'must', 'ought'];
+  'could', 'may', 'will', 'should', 'have', 'has', 'shall', 'must', 'ought',
+  'am', 'can'];
 
 function randomChoice(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
