@@ -76,6 +76,7 @@ function transform(input) {
       output += word;
     }
   }
+  output = output.replace(/\n/g, '<br/>');
   return output;
 }
 
