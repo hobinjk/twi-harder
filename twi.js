@@ -29,6 +29,7 @@ function doTransform() {
 }
 
 function transform(input) {
+  input = input.replace(/’/g, '\'');
   input = input.replace(/'ve /g, ' have ');
   input = input.replace(/ ain't /g, ' is not ');
   input = input.replace(/n't /g, ' not ');
