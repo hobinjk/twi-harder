@@ -3,7 +3,7 @@ document.getElementById('text').addEventListener('keyup', doTransform);
 
 var beginnings = ['Therefore', 'However', 'And so', 'Likewise',
                   'On the other hand', 'Thereupon', 'Indeed', 'Heretoforward'];
-var verilies = ['verily', 'indubitably', 'undoubtedly', 'quite', 'very',
+var verilies = ['verily', 'indubitably', 'undoubtedly', 'quite',
                 'unassumedly', 'assuredly'];
 
 function randomChoice(arr) {
