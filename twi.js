@@ -2,7 +2,9 @@ document.getElementById('text').addEventListener('change', doTransform);
 document.getElementById('text').addEventListener('keyup', doTransform);
 
 var beginnings = ['Therefore', 'However', 'And so', 'Likewise',
-                  'On the other hand', 'Thereupon', 'Indeed', 'Heretoforward'];
+                  'On the other hand', 'Thereupon', 'Indeed', 'Heretoforward',
+                  'Furthermore', 'Moreover', 'Additionally', 'Nonetheless',
+                  'Notwithstanding', 'All the same', 'Be that as it may'];
 var verilies = ['verily', 'indubitably', 'undoubtedly', 'quite',
                 'unassumedly', 'assuredly', 'indeed', 'absolutely',
                 'thoroughly', 'altogether', 'entirely', 'largely', 'perfectly',
