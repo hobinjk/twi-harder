@@ -4,7 +4,9 @@ document.getElementById('text').addEventListener('keyup', doTransform);
 var beginnings = ['Therefore', 'However', 'And so', 'Likewise',
                   'On the other hand', 'Thereupon', 'Indeed', 'Heretoforward'];
 var verilies = ['verily', 'indubitably', 'undoubtedly', 'quite',
-                'unassumedly', 'assuredly', 'indeed'];
+                'unassumedly', 'assuredly', 'indeed', 'absolutely',
+                'thoroughly', 'altogether', 'entirely', 'largely', 'perfectly',
+                'precisely', 'purely'];
 
 var helpingVerbs = ['did', 'would', 'might', 'were', 'is', 'are', 'was', 'can',
   'could', 'may', 'will', 'should', 'have', 'has', 'shall', 'must', 'ought'];
