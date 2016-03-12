@@ -64,11 +64,6 @@ function transform(input) {
           output += words[i];
         }
       }
-    } else if (word === ',') {
-      output += '&mdash;';
-      if (words[i + 1] === ' ') {
-        i++;
-      }
     } else if (word.substr(word.length - 2) === 'ed') {
       output += randomChoice(verilies);
       output += ' ' + word;
