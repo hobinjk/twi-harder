@@ -48,6 +48,9 @@ function transform(input) {
       output += word;
     } else if (word === '.') {
       output += word;
+      if (words[i + 1] === '\n') {
+        continue;
+      }
       if (i < words.length - 3) {
         output += ' ';
         output += randomChoice(beginnings);
